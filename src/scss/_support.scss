@@ -1,0 +1,42 @@
+.support {
+    padding: 44px;
+
+    .local-box {
+        width: 666px;
+        height: 640px;
+        background: url(../images/support/support-bg.png) center/cover;
+        padding-left: 60px;
+
+
+        &__title {
+            color: #FFF;
+            font-size: 53px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 60.5px;
+            /* 114.151% */
+            letter-spacing: 1.65px;
+            padding-top: 212px;
+            margin-bottom: 52px;
+
+            &_blue {
+                color: #1B9097;
+            }
+        }
+
+        &__btn {
+            background: url(../images/support/supportbg.png) center/cover;
+            width: 162px;
+            height: 60px;
+            color: #35B8BE;
+            text-align: center;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            /* 117.647% */
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

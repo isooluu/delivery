@@ -1,0 +1,148 @@
+.footer {
+    padding-top: 100px;
+    background: url(../images/footer/footerbg.png) center/cover;
+
+    .medium-box {
+        &__img {
+            margin-bottom: 25px;
+        }
+
+        &__text {
+            color: #546285;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px;
+            /* 168.75% */
+            letter-spacing: 0.36px;
+        }
+    }
+
+    .footer-links {
+        margin-bottom: 99px;
+        display: flex;
+        gap: 125px;
+
+        .company-box {
+            &__title {
+                color: #08090A;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+                /* 153.846% */
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+                margin-bottom: 28px;
+            }
+
+            &__list {
+                gap: 28px;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+
+                &_link {
+                    cursor: pointer;
+                    color: #546285;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                    /* 133.333% */
+                }
+
+            }
+        }
+
+        .template-box {
+            &__title {
+                color: #08090A;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+                /* 153.846% */
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+                margin-bottom: 28px;
+            }
+
+            &__list {
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                gap: 28px;
+
+                &_link {
+                    cursor: pointer;
+                    color: #546285;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                    /* 133.333% */
+                }
+            }
+
+        }
+
+        .flowbase-box {
+            &__title {
+                color: #08090A;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+                /* 153.846% */
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+                margin-bottom: 28px;
+            }
+
+            &__list {
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                gap: 28px;
+
+                &_link {
+                    cursor: pointer;
+                    color: #546285;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                    /* 133.333% */
+                }
+            }
+        }
+    }
+
+    .footer-flow {
+        display: flex;
+        padding: 61px 0 60px;
+        justify-content: space-between;
+        align-items: center;
+
+        &__text {
+            color: #353448;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            /* 133.333% */
+            &_blue{
+                color: #35B8BE;
+                cursor: pointer;
+            }
+        }
+
+        &__img{
+            display: flex;
+            gap: 24px;
+            cursor: pointer;
+
+        }
+    }
+}
